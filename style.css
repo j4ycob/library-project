@@ -213,6 +213,10 @@ margin: 0 auto;
     flex-direction: column;
 }
 
+.highlight__text {
+    text-shadow: none;
+}
+
 .highlight__para {
     text-align: center;
     max-width: 280px;
