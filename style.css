@@ -213,6 +213,9 @@ margin: 0 auto;
     flex-direction: column;
 }
 
+.DFDKI {
+    background: bounding-box;
+}
 
 .highlight__para {
     text-align: center;
