@@ -213,9 +213,6 @@ margin: 0 auto;
     flex-direction: column;
 }
 
-.messi {
-    stroke-dasharray: none;
-}
 
 .highlight__para {
     text-align: center;
