@@ -103,9 +103,13 @@ li {
     right: 0;
     bottom: 0;
     z-index: 100;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
+}
+
+.menu--open .menu__backdrop {
+    display: flex;
 }
 
 .menu__links {
@@ -371,6 +375,13 @@ filter: grayscale(1) invert(1);
 
 .footer__link{
 padding: 0 8px;
+}
+
+@media (max-width: 550px) {
+.nav__links {
+    display: none;
+    
+}
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
